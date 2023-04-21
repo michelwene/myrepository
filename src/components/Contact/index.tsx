@@ -67,6 +67,7 @@ export default function Contact() {
       setIsLoading(false);
     } catch (err) {
       setIsLoading(false);
+      //@ts-ignore
       toast.error(err.response.data.message, {
         autoClose: 5000,
       });
