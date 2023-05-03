@@ -8,6 +8,10 @@ export default function Document() {
         <title>Michel Wene</title>
         <meta name="description" content="Portifólio pessoal." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          http-equiv="Content-Security-Policy"
+          content="upgrade-insecure-requests"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <body className="scrollbar-thumb-black scrollbar-track-gray-100 scrollbar-thin scrollbar-thumb-rounded-full scrollbar-track-rounded-full hover:scrollbar-thumb-gray-500">
