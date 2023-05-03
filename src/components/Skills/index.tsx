@@ -15,11 +15,11 @@ export default function Skills({ skills, studies, otherSkills }: HomeProps) {
         </div>
         <div className="w-3/4 lg:w-1/2 mx-auto my-10 font-montserrat font-bold text-[30px]">
           <h4>Utilizando atualmente:</h4>
-          <div className="grid grid-cols-1 md:grid-cols-3">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             {skills &&
               skills.map((skill) => (
                 <div key={skill.id}>
-                  <p className="font-montserrat font-normal text-[24px] text-center">
+                  <p className="font-montserrat font-bold text-[24px] text-center">
                     {skill.name}
                   </p>
                   <Image
@@ -35,11 +35,11 @@ export default function Skills({ skills, studies, otherSkills }: HomeProps) {
         </div>
         <div className="w-3/4 lg:w-1/2 mx-auto my-10 font-montserrat font-bold text-[30px]">
           <h4>Estudando:</h4>
-          <div className="grid grid-cols-1 md:grid-cols-3">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             {studies &&
               studies.map((study) => (
                 <div key={study.id}>
-                  <p className="font-montserrat font-normal text-[24px] text-center">
+                  <p className="font-montserrat font-bold text-[24px] text-center">
                     {study.name}
                   </p>
                   <Image
@@ -55,11 +55,11 @@ export default function Skills({ skills, studies, otherSkills }: HomeProps) {
         </div>
         <div className="w-3/4 lg:w-1/2 mx-auto my-10 font-montserrat font-bold text-[30px]">
           <h4>Outras habilidades:</h4>
-          <div className="grid grid-cols-1 md:grid-cols-3">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             {otherSkills &&
               otherSkills.map((otherSkill) => (
                 <div key={otherSkill.id}>
-                  <p className="font-montserrat font-normal text-[24px] text-center">
+                  <p className="font-montserrat font-bold text-[24px] text-center">
                     {otherSkill.name}
                   </p>
                   <Image
