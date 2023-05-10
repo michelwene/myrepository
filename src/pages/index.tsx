@@ -7,6 +7,7 @@ import Portfolio from "@/components/Portfolio";
 import Skills from "@/components/Skills";
 import { api } from "@/services/api";
 import { GetStaticProps } from "next";
+import { WhatsappIcon } from "react-share";
 
 export type SkillsType = {
   id: number;
