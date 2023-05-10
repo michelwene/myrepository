@@ -51,6 +51,16 @@ export default function Home(data: HomeProps) {
       <NavBar />
       <Main />
       <AboutMe />
+
+      <button className="fixed bottom-5 right-5 z-50">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://api.whatsapp.com/send?phone=18998071096&text=Ol%C3%A1!%20Vi%20o%20seu%20site%20e%20gostaria%20de%20entrar%20em%20contato%20para%20solicitar%20seus%20servi%C3%A7os%20de%20desenvolvimento%20e%20manuten%C3%A7%C3%A3o%20de%20software.%20Por%20favor,%20me%20informe%20como%20podemos%20conversar%20melhor%20sobre%20isso.%20Obrigado!"
+        >
+          <WhatsappIcon size={70} round />
+        </a>
+      </button>
       <Skills
         skills={data.skills}
         otherSkills={data.otherSkills}
