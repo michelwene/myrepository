@@ -47,7 +47,12 @@ export default function NavBar() {
               Portifólio
             </p>
           </a>
-          <a href="#contact">
+          <a
+            onClick={handleClickedLink}
+            target="_blank"
+            rel="noreferrer"
+            href="https://api.whatsapp.com/send?phone=18998071096&text=Ol%C3%A1!%20Vi%20o%20seu%20site%20e%20gostaria%20de%20entrar%20em%20contato%20para%20solicitar%20seus%20servi%C3%A7os%20de%20desenvolvimento%20e%20manuten%C3%A7%C3%A3o%20de%20software.%20Por%20favor,%20me%20informe%20como%20podemos%20conversar%20melhor%20sobre%20isso.%20Obrigado!"
+          >
             <p
               className="text-black font-bold hover:underline cursor-pointer active:brightness-75 select-none bg-white rounded-full px-3 py-1"
               role="button"
@@ -116,7 +121,12 @@ export default function NavBar() {
                 Portifólio
               </p>
             </a>
-            <a href="#contact" onClick={handleClickedLink}>
+            <a
+              onClick={handleClickedLink}
+              target="_blank"
+              rel="noreferrer"
+              href="https://api.whatsapp.com/send?phone=18998071096&text=Ol%C3%A1!%20Vi%20o%20seu%20site%20e%20gostaria%20de%20entrar%20em%20contato%20para%20solicitar%20seus%20servi%C3%A7os%20de%20desenvolvimento%20e%20manuten%C3%A7%C3%A3o%20de%20software.%20Por%20favor,%20me%20informe%20como%20podemos%20conversar%20melhor%20sobre%20isso.%20Obrigado!"
+            >
               <p
                 className="text-black font-bold hover:underline cursor-pointer active:brightness-75 select-none bg-white px-3 uppercase py-4"
                 role="button"

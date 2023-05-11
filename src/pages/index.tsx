@@ -68,7 +68,7 @@ export default function Home(data: HomeProps) {
         studies={data.studies}
       />
       <Portfolio repositories={data.repositories} />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </div>
   );
